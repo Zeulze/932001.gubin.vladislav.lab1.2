@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.float-box {
+    /* float: left; */
+    margin: 20px 0px 15px 20px;
+
+    width: 225px;
+    height: 100px;
+
+    background-color: aquamarine;
+}
+
+.clear-box {
+    background-color: bisque;
+
+    margin-left: 10px;
+    margin-right: 10px;
+}

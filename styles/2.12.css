@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-size: 16px;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.container {
+    margin: 5px;
+    background-color: aqua;
+    padding: 0px;
+
+}
+
+.list {
+    padding: 0px;
+    border: 1px solid green;
+}
+
+.first {
+    display: inline-block;
+
+    width: 15vw;   
+    min-width: 130px;
+    height: 70px;
+
+    background-color: bisque;
+
+    vertical-align: top;
+}
+
+.second {   
+    display: inline-block;
+
+    background-color: gray;
+
+    width: 84vw;
+}
+
+.second-list{
+    margin: 0;
+    
+    margin-top: 8px;
+}

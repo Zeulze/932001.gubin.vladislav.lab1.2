@@ -1,0 +1,45 @@
+* {
+    box-sizing: content-box;
+}
+
+html {
+    padding: 0;
+}
+
+body{
+    margin: 0;
+    font-size: 24px;
+
+    font-family:'Times New Roman', Times, serif;
+}
+
+.parent{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+}
+
+
+.container-top {
+    display: inline-block;
+    
+    width: 500px;
+
+    margin-top: 5px;
+    margin-bottom: 25px;
+
+    text-align: left;
+
+    background-color: green;
+}
+
+.container-bottom {
+    display: inline-block;
+
+    width: 500px;
+    border: 50px solid blue;
+
+    text-align: left;
+
+    background-color: blue;
+}
